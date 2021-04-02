@@ -4,6 +4,20 @@ public class MyMethodReferencesExample {
 	public static void main(String[] args) {
 		MyFunctionalInterface fi;
 		
+		/*
+		//익명구현객체
+		fi = new MyFunctionalInterface() {
+
+			@Override
+			public void method(int x) {
+			int result = x * 5;
+			System.out.println(result);
+		}
+			
+	};
+	*/
+		
+		// 람다식
 		fi= (x) -> {
 			int result = x * 5;
 			System.out.println(result);
