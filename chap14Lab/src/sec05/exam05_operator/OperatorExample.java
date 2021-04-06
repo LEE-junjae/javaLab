@@ -15,6 +15,7 @@ public class OperatorExample {
 	
 	public static void main(String[] args) {
 		//최대값 얻기
+		/*
 		int max = maxOrMin(
 			(a, b) -> {
 				if(a>=b) return a;
@@ -31,5 +32,15 @@ public class OperatorExample {
 			}
 		);
 		System.out.println("최소값: " + min);
+		*/
+		//익명 구현객체를 매개변수로 전달한다.
+		int max = maxOrMin(new IntBinaryOperator() {
+			@Override
+			public int applyAsInt(int a, int b) {
+				if(a>=b) return a;
+				else return b;
+			}
+		});
+		
 	}
 }
