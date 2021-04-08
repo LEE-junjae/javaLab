@@ -18,6 +18,7 @@ public class Student {
 		}
 	}
 
+	@Override
 	public int hashCode() {
 		return sno + name.hashCode();
 	}
