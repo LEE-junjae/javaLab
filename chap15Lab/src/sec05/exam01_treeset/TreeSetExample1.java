@@ -25,8 +25,8 @@ public class TreeSetExample1 {
 		score = scores.higher(new Integer(95));
 		System.out.println("95점 위의 점수: " + score + "\n");		
 		
-		score = scores.floor(new Integer(95));
-		System.out.println("95점 이거나 바로 아래 점수: " + score);
+		score = scores.floor(new Integer(94));
+		System.out.println("94점 이거나 바로 아래 점수: " + score);
 		
 		score = scores.ceiling(new Integer(85));
 		System.out.println("85점 이거나 바로 위의 점수: " + score + "\n");
