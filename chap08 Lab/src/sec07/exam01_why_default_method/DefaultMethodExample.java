@@ -1,3 +1,4 @@
+//실행클래스
 package sec07.exam01_why_default_method;
 
 public class DefaultMethodExample {
