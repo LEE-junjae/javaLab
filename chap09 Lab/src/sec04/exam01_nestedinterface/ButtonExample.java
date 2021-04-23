@@ -1,3 +1,4 @@
+//구현 클래스
 package sec04.exam01_nestedinterface;
 
 public class ButtonExample {
