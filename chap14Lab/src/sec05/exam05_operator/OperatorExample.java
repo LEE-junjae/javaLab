@@ -42,5 +42,16 @@ public class OperatorExample {
 			}
 		});
 		
+		int min = maxOrMin(new IntBinaryOperator() {
+
+			@Override
+			public int applyAsInt(int a, int b) {
+				if(a<=b) return a;
+				else return b;
+			}
+			
+		});
+				
+		
 	}
 }

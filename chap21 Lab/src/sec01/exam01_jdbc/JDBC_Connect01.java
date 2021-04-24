@@ -15,6 +15,7 @@ public class JDBC_Connect01 {
 		/*****************************************************/
 
 		try {
+			//오라클 DB 접속을 위한 클래스를 JVM에 로딩한다.
 			Class.forName(driver);
 			System.out.println("JDBC Driver Loading 성공~!!");
 

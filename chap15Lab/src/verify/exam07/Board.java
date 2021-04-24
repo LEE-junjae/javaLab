@@ -5,10 +5,15 @@ public class Board {
 	private String content;
 	
 	public Board(String title, String content) {
-		this.title = title;
-		this.content = content;
+	this.title = title;
+	this.content = content;
+	}
+	
+	public String getTitle() { 
+		return title; 
+	}
+	public String getContent() { 
+		return content; 
 	}
 
-	public String getTitle() { return title; }
-	public String getContent() { return content; }
 }
