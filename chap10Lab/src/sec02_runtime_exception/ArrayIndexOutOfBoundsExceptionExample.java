@@ -1,3 +1,4 @@
+//실행클래스 
 package sec02_runtime_exception;
 
 /*public class ArrayIndexOutOfBoundsExceptionExample {
