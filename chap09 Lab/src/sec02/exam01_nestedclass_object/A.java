@@ -6,7 +6,7 @@ class A {
 	
 	/**ÀÎ½ºÅÏ½º ¸â¹ö Å¬·¡½º**/
 	public class B {
-		B() { System.out.println("B °´Ã¼°¡ »ý¼ºµÊ"); }
+		B() { System.out.println("B °´Ã¼°¡ »ý¼ºµÊ!"); }
 		int field1;
 		//static int field2;
 		void method1() { }
