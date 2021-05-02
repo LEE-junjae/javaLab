@@ -1,4 +1,4 @@
-//예외처리코드 예시
+//예외처리코드
 package sec05_try_with_resources;
 
 public class TryWithResourceExample {
