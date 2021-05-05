@@ -41,6 +41,7 @@ public class OperatorExample {
 				else return b;
 			}
 		});
+		System.out.println("최대값: " + max);
 		
 		int min = maxOrMin(new IntBinaryOperator() {
 
@@ -51,6 +52,7 @@ public class OperatorExample {
 			}
 			
 		});
+		System.out.println("최소값: " + min);
 				
 		
 	}
